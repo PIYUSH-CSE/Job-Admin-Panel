@@ -11,7 +11,7 @@ class JobListingAdmin(admin.ModelAdmin):
 
     search_fields = ('title', 'company', 'location')  # Fields to search for
     ordering = ('-yearly_avg_salary',)
-    list_per_page = 10  # Items per page in the admin panel
+    list_per_page = 8  # Items per page in the admin panel
 
     def average_salary_per_region(self, obj):
         """
