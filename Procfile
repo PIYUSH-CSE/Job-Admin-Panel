@@ -1,2 +1,2 @@
-web: gunicorn indeeds.wsgi
+web: gunicorn indeeds.wsgi --bind 0.0.0.0:$PORT
 
