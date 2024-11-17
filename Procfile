@@ -1,2 +1,2 @@
-web: gunicorn indeeds.wsgi --log-file
+web: gunicorn indeeds.wsgi
 
